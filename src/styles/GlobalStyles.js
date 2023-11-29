@@ -142,6 +142,22 @@ img {
   /* For dark mode */
   filter: grayscale(var(--image-grayscale)) opacity(var(--image-opacity));
 }
+
+/* scrollbar.css */
+/* Style the scrollbar track */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Style the scrollbar thumb */
+::-webkit-scrollbar-thumb {
+  background: #9e89ff;
+  /* background: #095a80; */
+}
 `;
 
 export default GlobalStyles;
